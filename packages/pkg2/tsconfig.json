@@ -4,6 +4,7 @@
     "outDir": "lib",
     "rootDir": "src",
     "baseUrl": "src",
+    "composite": true,
     "paths": {
       "~/*": ["*"]
     }
