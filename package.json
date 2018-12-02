@@ -11,6 +11,6 @@
     ]
   },
   "devDependencies": {
-    "typescript": "^3.0.0-dev.20180626"
+    "typescript": "^3.2.1"
   }
 }
