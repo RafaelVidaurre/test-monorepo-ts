@@ -1,6 +1,6 @@
 import * as p1 from "@ryancavanaugh/pkg1";
 import { bara } from "@ryancavanaugh/pkg1";
-export { rooto } from "./foo";
+export { rootoa } from "./foo";
 
 export const forg = "444";
 

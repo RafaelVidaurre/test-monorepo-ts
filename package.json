@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "start:dev": "ttsc -b packages --watch"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
@@ -12,6 +15,8 @@
   },
   "devDependencies": {
     "dts-bundle-generator": "^1.6.1",
+    "tsconfig-paths": "^3.7.0",
+    "ttypescript": "^1.5.5",
     "typescript": "^3.2.1"
   }
 }

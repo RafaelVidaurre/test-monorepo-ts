@@ -9,7 +9,10 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: "ts-loader",
+        loader: "ts-loader",
+        options: {
+          projectReferences: true
+        },
         exclude: /node_modules/
       }
     ]
@@ -21,9 +24,9 @@ module.exports = {
       "@ryancavanaugh": path.resolve(__dirname, "node_modules/@ryancavanaugh")
     },
     plugins: [
-      new TsconfigPathsPlugin(),
+      // new TsconfigPathsPlugin(),
       new DeclarationBundlerPlugin({
-        moduleName: "pkg1"
+        moduleName: "pkg"
       })
     ]
   },

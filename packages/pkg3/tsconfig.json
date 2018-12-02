@@ -4,10 +4,8 @@
     "outDir": "lib",
     "rootDir": "src",
     "baseUrl": "src",
-    "composite": true,
-    "paths": {
-      "~/*": ["*"]
-    }
+    "plugins": [{ "transform": "../../transformers/relativize-imports.ts" }],
+    "composite": true
   },
   "references": [{ "path": "../pkg1" }, { "path": "../pkg2" }]
 }

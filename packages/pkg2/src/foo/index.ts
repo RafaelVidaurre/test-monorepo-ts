@@ -1,2 +1,3 @@
-import { rooto } from "~/rooto";
-export { rooto };
+import { rootoa } from "rooto";
+console.log("dwa");
+export { rootoa };

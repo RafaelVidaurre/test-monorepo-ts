@@ -1,3 +1,6 @@
-import { rooto } from "~/rooto";
+import { rootoa } from "rooto";
+import { groe } from "barsolut";
 
-console.log("rooto", rooto);
+export { groe };
+
+console.log("rooto", rootoa);
